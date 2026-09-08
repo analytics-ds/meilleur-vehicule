@@ -1,0 +1,62 @@
+{{ define "main" }}
+{{ $lang := .Site.Language.Lang }}
+
+<section class="sitemap-page">
+    <header class="list-header">
+        <div class="container">
+            <h1>{{ if eq $lang "en" }}Sitemap{{ else }}Plan du site{{ end }}</h1>
+            <p class="list-description">{{ if eq $lang "en" }}All pages of {{ .Site.Title }}{{ else }}Toutes les pages de {{ .Site.Title }}{{ end }}</p>
+        </div>
+    </header>
+
+    <div class="sitemap-content">
+        <div class="container container-narrow">
+
+            <div class="sitemap-section">
+                <h2>{{ if eq $lang "en" }}Main pages{{ else }}Pages principales{{ end }}</h2>
+                <ul class="sitemap-list">
+                    <li>
+                        <a href="{{ "/" | relLangURL }}">{{ if eq $lang "en" }}Home{{ else }}Accueil{{ end }}</a>
+                    </li>
+                    {{ range .Site.Menus.main }}
+                    <li>
+                        <a href="{{ .URL | relURL }}">{{ .Name }}</a>
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
+
+            {{ range $key, $taxonomy := .Site.Taxonomies.categories }}
+            {{ $termPages := slice }}
+            {{ range $taxonomy.Pages }}
+                {{ $isEn := strings.HasPrefix .RelPermalink "/en/" }}
+                {{ if eq $isEn (eq $lang "en") }}
+                    {{ $termPages = $termPages | append . }}
+                {{ end }}
+            {{ end }}
+            {{ if $termPages }}
+            <div class="sitemap-section">
+                <h2>{{ $key | humanize | title }}</h2>
+                <ul class="sitemap-list">
+                    {{ range sort $termPages "Date" "desc" }}
+                    <li>
+                        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                        <span class="sitemap-date">
+                            {{ with .Params.lastmod }}
+                                {{ (time .).Format "02/01/2006" }}
+                            {{ else }}
+                                {{ .Date.Format "02/01/2006" }}
+                            {{ end }}
+                        </span>
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
+            {{ end }}
+            {{ end }}
+
+        </div>
+    </div>
+</section>
+
+{{ end }}

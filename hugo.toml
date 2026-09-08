@@ -1,0 +1,108 @@
+baseURL = "https://meilleur-vehicule.com/"
+title = "Meilleur Véhicule"
+theme = "meilleur-vehicule"
+
+defaultContentLanguage = "fr"
+defaultContentLanguageInSubdir = false
+removePathAccents = true
+
+[languages]
+  [languages.fr]
+    languageCode = "fr-FR"
+    languageName = "Français"
+    weight = 1
+    title = "Meilleur Véhicule"
+    [languages.fr.params]
+      description = "Le comparateur indépendant pour bien choisir, entretenir, assurer et immatriculer son véhicule."
+
+  [languages.en]
+    languageCode = "en-US"
+    languageName = "English"
+    weight = 2
+    title = "Meilleur Véhicule"
+    contentDir = "content/en"
+    [languages.en.params]
+      description = "The independent comparator to help you choose, maintain, insure and register your vehicle."
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[[languages.fr.menus.main]]
+  name = "Accueil"
+  url = "/"
+  weight = 1
+[[languages.fr.menus.main]]
+  name = "Achat et vente"
+  url = "/categories/achat-et-vente/"
+  weight = 2
+[[languages.fr.menus.main]]
+  name = "Entretien et réparation"
+  url = "/categories/entretien-et-reparation/"
+  weight = 3
+[[languages.fr.menus.main]]
+  name = "Démarches administratives"
+  url = "/categories/demarches-administratives/"
+  weight = 4
+[[languages.fr.menus.main]]
+  name = "Assurance auto"
+  url = "/categories/assurance-auto/"
+  weight = 5
+[[languages.fr.menus.main]]
+  name = "Le Blog"
+  url = "/blog/"
+  weight = 99
+
+[[languages.en.menus.main]]
+  name = "Home"
+  url = "/en/"
+  weight = 1
+[[languages.en.menus.main]]
+  name = "Buying and selling"
+  url = "/en/categories/buying-and-selling/"
+  weight = 2
+[[languages.en.menus.main]]
+  name = "Maintenance and repair"
+  url = "/en/categories/maintenance-and-repair/"
+  weight = 3
+[[languages.en.menus.main]]
+  name = "Administrative procedures"
+  url = "/en/categories/administrative-procedures/"
+  weight = 4
+[[languages.en.menus.main]]
+  name = "Car insurance"
+  url = "/en/categories/car-insurance/"
+  weight = 5
+[[languages.en.menus.main]]
+  name = "The Blog"
+  url = "/en/blog/"
+  weight = 99
+
+[params]
+  default_og_image = "/images/og-default.jpg"
+  logo = "/favicon.svg"
+  founding_year = "2026"
+  expertise = ["Immatriculation et démarches administratives", "Entretien automobile", "Assurance auto", "Achat et vente de véhicules"]
+
+[related]
+  includeNewer = true
+  threshold = 80
+  [[related.indices]]
+    name = "categories"
+    weight = 100
+  [[related.indices]]
+    name = "tags"
+    weight = 80
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+    ordered = true
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"

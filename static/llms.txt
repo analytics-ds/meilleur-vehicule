@@ -1,0 +1,32 @@
+# Meilleur Véhicule
+
+> Le comparateur indépendant pour bien choisir, entretenir, assurer et immatriculer son véhicule.
+
+## À propos
+
+Meilleur Véhicule est un guide indépendant consacré au véhicule automobile : achat et vente entre particuliers, entretien et réparation, démarches administratives (immatriculation, carte grise, changement d'adresse), et assurance auto. Le site propose des comparatifs factuels, sourcés et sans jargon.
+
+## Contenu principal
+
+- Achat et vente : https://meilleur-vehicule.com/categories/achat-et-vente/
+- Entretien et réparation : https://meilleur-vehicule.com/categories/entretien-et-reparation/
+- Démarches administratives : https://meilleur-vehicule.com/categories/demarches-administratives/
+- Assurance auto : https://meilleur-vehicule.com/categories/assurance-auto/
+
+## Articles récents
+
+- Acheter une voiture d'occasion : la checklist avant de signer : https://meilleur-vehicule.com/blog/acheter-voiture-occasion-checklist/
+- Vendre sa voiture entre particuliers : les documents obligatoires : https://meilleur-vehicule.com/blog/vendre-voiture-particulier-documents-obligatoires/
+- Entretien voiture : le calendrier des révisions à respecter : https://meilleur-vehicule.com/blog/calendrier-revisions-entretien-voiture/
+- Voyants du tableau de bord : lesquels ignorer, lesquels non : https://meilleur-vehicule.com/blog/voyants-tableau-de-bord-signification/
+- Carte grise en ligne : immatriculer son véhicule sans se déplacer en préfecture : https://meilleur-vehicule.com/blog/carte-grise-en-ligne-immatriculation-sans-prefecture/
+- Changement d'adresse sur la carte grise : délai légal et démarche : https://meilleur-vehicule.com/blog/changement-adresse-carte-grise-delai-legal/
+- Bonus-malus auto : comment il est calculé et comment le faire baisser : https://meilleur-vehicule.com/blog/bonus-malus-auto-calcul-comment-baisser/
+- Changer d'assurance auto : la procédure de résiliation en cours d'année : https://meilleur-vehicule.com/blog/resilier-assurance-auto-en-cours-annee/
+
+## Informations techniques
+
+- Générateur : Hugo
+- Hébergement : GitHub Pages
+- Sitemap : https://meilleur-vehicule.com/sitemap.xml
+- RSS : https://meilleur-vehicule.com/index.xml
