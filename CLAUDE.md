@@ -76,7 +76,8 @@ Ce repo ne contient pas de site. Il contient les **instructions et templates** p
 - **Nom du site** : Meilleur Véhicule
 - **Description (FR)** : Le comparateur indépendant pour bien choisir, entretenir, assurer et immatriculer son véhicule.
 - **Description (EN)** : The independent comparator to help you choose, maintain, insure and register your vehicle.
-- **URL** : https://meilleur-vehicule.com/ (domaine à connecter par Damien, CNAME déjà présent dans `static/CNAME`)
+- **URL** : https://meilleur-vehicule.com/ (DNS à connecter par Damien, CNAME déjà configuré côté GitHub Pages et dans `static/CNAME`)
+- **Repo GitHub** : https://github.com/analytics-ds/meilleur-vehicule (public, GitHub Pages activé via Actions, déployé le 2026-09-08)
 - **Couleurs** : primary `#1D4E89` (bleu institutionnel), accent/cta `#E8762C` (orange), background `#F7F9FB`. Palette neutre "comparateur auto", volontairement générique et sans lien visuel avec un client.
 - **Polices** : Sora (titres, 600-800) + Inter (corps/UI). Sans-serif dans les deux cas, ton institutionnel plutôt que lifestyle.
 - **Langue principale** : fr (la version EN en sous-dossier `/en/` est TOUJOURS active)
