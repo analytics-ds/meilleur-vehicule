@@ -1,0 +1,7 @@
+{{/* Formate une date en toutes lettres, localisee FR ou EN. Params attendus : .date (time.Time), .lang ("fr" ou "en"). */}}
+{{ $date := .date }}
+{{ $lang := .lang }}
+{{ if eq $lang "en" }}{{ $date.Format "2 January 2006" }}{{ else }}
+{{- $moisFR := slice "" "janvier" "février" "mars" "avril" "mai" "juin" "juillet" "août" "septembre" "octobre" "novembre" "décembre" -}}
+{{- printf "%d %s %d" $date.Day (index $moisFR (int $date.Month)) $date.Year -}}
+{{ end }}
