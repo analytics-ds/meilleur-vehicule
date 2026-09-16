@@ -6,7 +6,7 @@ lastmod: "2026-09-08"
 description: "Hamon law, 2-month notice: the two procedures to cancel your car insurance mid-year and switch insurers."
 categories: ["Car insurance"]
 tags: ["car insurance cancellation", "hamon law", "switching insurance", "insurance notice period"]
-author: "kevin-moreau"
+author: "antoine-lefebvre"
 faq:
   - question: "Can you cancel your car insurance at any time of the year?"
     answer: "Yes, under the Hamon law, any car insurance contract older than one year can be cancelled at any time without fees or penalties, with the new insurer generally handling the paperwork."

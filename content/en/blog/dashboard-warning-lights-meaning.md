@@ -6,7 +6,7 @@ lastmod: "2026-09-08"
 description: "Engine light, oil pressure, ABS: how to read dashboard warning lights and know which ones require an immediate stop."
 categories: ["Maintenance and repair"]
 tags: ["dashboard warning lights", "engine light", "oil pressure", "breakdown diagnostic"]
-author: "kevin-moreau"
+author: "julien-ferrand"
 faq:
   - question: "Which dashboard warning light requires an immediate stop of the vehicle?"
     answer: "The red oil pressure light requires an immediate stop: driving with this light on can destroy the engine within minutes due to lack of lubrication."

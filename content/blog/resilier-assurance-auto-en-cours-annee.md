@@ -6,7 +6,7 @@ lastmod: "2026-09-08"
 description: "Loi Hamon, préavis de 2 mois : les deux procédures pour résilier son assurance auto en cours d'année et changer d'assureur."
 categories: ["Assurance auto"]
 tags: ["résiliation assurance auto", "loi hamon", "changer assurance", "préavis assurance"]
-author: "kevin-moreau"
+author: "antoine-lefebvre"
 faq:
   - question: "Peut-on résilier son assurance auto à tout moment de l'année ?"
     answer: "Oui, depuis la loi Hamon, tout contrat d'assurance auto de plus d'un an peut être résilié à tout moment sans frais ni pénalité, le nouvel assureur se chargeant généralement des démarches."

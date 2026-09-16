@@ -6,7 +6,7 @@ lastmod: "2026-09-08"
 description: "Coefficient de réduction-majoration, sinistre responsable, délai de reprise à 0,50 : tout comprendre au calcul du bonus-malus auto."
 categories: ["Assurance auto"]
 tags: ["bonus malus", "coefficient réduction majoration", "sinistre responsable", "assurance auto"]
-author: "kevin-moreau"
+author: "antoine-lefebvre"
 faq:
   - question: "Comment est calculé le bonus-malus d'une assurance auto ?"
     answer: "Le coefficient de réduction-majoration (CRM) baisse de 5% chaque année sans sinistre responsable et augmente de 25% par sinistre responsable, avec un plancher de 0,50 après 13 ans sans accident et un plafond de 3,50."

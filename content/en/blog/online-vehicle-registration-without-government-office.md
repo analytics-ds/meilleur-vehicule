@@ -6,7 +6,7 @@ lastmod: "2026-09-08"
 description: "Since government counters closed, vehicle registration is done online: process, timelines, and providers authorized by the State."
 categories: ["Administrative procedures"]
 tags: ["online registration", "vehicle registration", "registration agency", "authorized provider"]
-author: "kevin-moreau"
+author: "camille-dubreuil"
 faq:
   - question: "How do you register a vehicle online without visiting a government office?"
     answer: "Since 2017, government counters no longer process registration requests: it is done exclusively online, either on the official registration agency's site, or via a provider authorized by the Ministry of the Interior, such as Cartegrise.com, which handles the file for you."

@@ -166,33 +166,38 @@ img {
 }
 
 .site-logo {
-    font-family: var(--font-heading);
-    font-size: 1.5rem;
-    font-weight: 900;
-    color: var(--primary);
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+}
+
+.site-logo-img {
+    height: 36px;
+    width: auto;
+    display: block;
 }
 
 .site-logo:hover {
-    color: var(--accent);
+    opacity: 0.85;
 }
 
 .site-nav {
     display: flex;
-    gap: var(--space-md);
+    align-items: center;
+    gap: 1.25rem;
+    flex-wrap: nowrap;
 }
 
 .nav-link {
     font-family: var(--font-ui);
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     font-weight: 500;
     color: var(--text-light);
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.3px;
     padding: var(--space-xs) 0;
     border-bottom: 2px solid transparent;
     transition: all var(--transition-fast);
+    white-space: nowrap;
 }
 
 .nav-link:hover, .nav-link.active {
@@ -909,18 +914,21 @@ img {
     flex-shrink: 0;
 }
 
-.toc nav ul {
+.toc nav ul,
+.toc nav ol {
     padding-left: var(--space-sm);
     list-style: none;
     margin: 0;
 }
 
-.toc nav ul li {
+.toc nav ul li,
+.toc nav ol li {
     margin-bottom: 2px;
     line-height: 1.4;
 }
 
-.toc nav ul li a {
+.toc nav ul li a,
+.toc nav ol li a {
     font-family: var(--font-ui);
     font-size: 0.75rem;
     color: var(--text-light);
@@ -931,22 +939,37 @@ img {
 }
 
 .toc nav ul li a:hover,
-.toc nav ul li a.toc-active {
+.toc nav ul li a.toc-active,
+.toc nav ol li a:hover,
+.toc nav ol li a.toc-active {
     color: var(--primary);
     font-weight: 600;
 }
 
-.toc nav ul ul {
+.toc nav ul ul,
+.toc nav ul ol,
+.toc nav ol ul,
+.toc nav ol ol {
     margin-left: var(--space-xs);
+    padding-left: var(--space-xs);
 }
 
-.toc nav ul ul li a {
+.toc nav ul ul li a,
+.toc nav ul ol li a,
+.toc nav ol ul li a,
+.toc nav ol ol li a {
     font-size: 0.7rem;
     color: var(--gray-400);
 }
 
 .toc nav ul ul li a:hover,
-.toc nav ul ul li a.toc-active {
+.toc nav ul ul li a.toc-active,
+.toc nav ul ol li a:hover,
+.toc nav ul ol li a.toc-active,
+.toc nav ol ul li a:hover,
+.toc nav ol ul li a.toc-active,
+.toc nav ol ol li a:hover,
+.toc nav ol ol li a.toc-active {
     color: var(--primary);
 }
 
@@ -1497,7 +1520,7 @@ img {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 960px) {
     .menu-toggle {
         display: block;
     }

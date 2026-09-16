@@ -6,7 +6,7 @@ lastmod: "2026-09-08"
 description: "Vidange, courroie de distribution, plaquettes : le calendrier complet des révisions automobiles par kilométrage."
 categories: ["Entretien et réparation"]
 tags: ["entretien voiture", "vidange", "révision auto", "courroie de distribution", "calendrier entretien"]
-author: "kevin-moreau"
+author: "julien-ferrand"
 faq:
   - question: "Tous les combien de kilomètres faut-il faire la vidange de sa voiture ?"
     answer: "La vidange se fait en général tous les 10 000 à 15 000 km ou une fois par an, selon le type de moteur et la préconisation du constructeur indiquée dans le carnet d'entretien."

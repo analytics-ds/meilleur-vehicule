@@ -6,7 +6,7 @@ lastmod: "2026-09-08"
 description: "Oil change, timing belt, brake pads: the full car maintenance schedule by mileage."
 categories: ["Maintenance and repair"]
 tags: ["car maintenance", "oil change", "car service", "timing belt", "maintenance schedule"]
-author: "kevin-moreau"
+author: "julien-ferrand"
 faq:
   - question: "How many kilometers between oil changes?"
     answer: "An oil change is generally needed every 10,000 to 15,000 km or once a year, depending on the engine type and the manufacturer's recommendation in the maintenance logbook."

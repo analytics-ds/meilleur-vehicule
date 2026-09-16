@@ -6,7 +6,7 @@ lastmod: "2026-09-08"
 description: "Le changement d'adresse sur la carte grise doit être fait sous 1 mois après un déménagement : démarche, coût et documents nécessaires."
 categories: ["Démarches administratives"]
 tags: ["changement adresse carte grise", "déménagement voiture", "ANTS", "amende carte grise"]
-author: "kevin-moreau"
+author: "camille-dubreuil"
 faq:
   - question: "Quel est le délai pour changer son adresse sur la carte grise après un déménagement ?"
     answer: "Le titulaire dispose d'un délai légal d'un mois après un déménagement pour mettre à jour l'adresse sur sa carte grise, sous peine d'une amende forfaitaire de 135 euros en cas de contrôle."

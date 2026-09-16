@@ -6,7 +6,7 @@ lastmod: "2026-09-16"
 description: "Le changement de titulaire d'une carte grise doit être déclaré sous 1 mois : démarche via l'ANTS ou un professionnel habilité, documents et coût."
 categories: ["Démarches administratives"]
 tags: ["changement de titulaire carte grise", "changement de propriétaire", "certificat de cession", "ANTS", "professionnel habilité"]
-author: "kevin-moreau"
+author: "camille-dubreuil"
 image: "/images/blog/changement-titulaire-carte-grise.jpg"
 imageAlt: "Gros plan sur une clé de voiture, symbole de la remise du véhicule lors d'un changement de titulaire"
 imageCredit: "Photo par Images_of_Money via Flickr (CC BY 2.0)"

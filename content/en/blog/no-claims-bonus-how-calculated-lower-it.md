@@ -6,7 +6,7 @@ lastmod: "2026-09-08"
 description: "Bonus-malus coefficient, at-fault claim, 0.50 floor: understanding how the car insurance no-claims bonus is calculated."
 categories: ["Car insurance"]
 tags: ["no-claims bonus", "bonus malus coefficient", "at-fault claim", "car insurance"]
-author: "kevin-moreau"
+author: "antoine-lefebvre"
 faq:
   - question: "How is a car insurance no-claims bonus calculated?"
     answer: "The bonus-malus coefficient decreases by 5% each year without an at-fault claim and increases by 25% per at-fault claim, with a floor of 0.50 after 13 consecutive claim-free years and a cap of 3.50."

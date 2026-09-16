@@ -6,7 +6,7 @@ lastmod: "2026-09-08"
 description: "Voyant moteur, pression d'huile, ABS : comment interpréter les voyants du tableau de bord et savoir lesquels imposent un arrêt immédiat."
 categories: ["Entretien et réparation"]
 tags: ["voyants tableau de bord", "voyant moteur", "pression huile", "diagnostic panne"]
-author: "kevin-moreau"
+author: "julien-ferrand"
 faq:
   - question: "Quel voyant du tableau de bord impose un arrêt immédiat du véhicule ?"
     answer: "Le voyant rouge de pression d'huile impose un arrêt immédiat : rouler avec ce voyant allumé peut détruire le moteur en quelques minutes faute de lubrification."

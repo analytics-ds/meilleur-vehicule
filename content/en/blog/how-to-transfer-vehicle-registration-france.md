@@ -6,7 +6,7 @@ lastmod: "2026-09-16"
 description: "Transferring a French vehicle registration to a new owner must be declared within 1 month: official agency or authorized provider, documents and cost."
 categories: ["Administrative procedures"]
 tags: ["vehicle registration transfer", "change of ownership", "transfer certificate", "registration agency", "authorized provider"]
-author: "kevin-moreau"
+author: "camille-dubreuil"
 image: "/images/blog/changement-titulaire-carte-grise.jpg"
 imageAlt: "Close-up of a car key, symbolizing the handover of a vehicle during an ownership transfer"
 imageCredit: "Photo by Images_of_Money via Flickr (CC BY 2.0)"

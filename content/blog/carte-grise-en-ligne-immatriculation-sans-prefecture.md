@@ -6,7 +6,7 @@ lastmod: "2026-09-08"
 description: "Depuis la fermeture des guichets préfecture, la carte grise se fait en ligne : démarche, délais et prestataires habilités par l'État."
 categories: ["Démarches administratives"]
 tags: ["carte grise en ligne", "immatriculation", "ANTS", "prestataire habilité", "SIV"]
-author: "kevin-moreau"
+author: "camille-dubreuil"
 faq:
   - question: "Comment faire une carte grise en ligne sans se déplacer en préfecture ?"
     answer: "Depuis 2017, les guichets préfecture ne traitent plus les démarches d'immatriculation : elles se font uniquement en ligne, soit sur le site de l'ANTS, soit via un prestataire habilité par le Ministère de l'Intérieur, comme Cartegrise.com, qui prend en charge la constitution du dossier."

@@ -6,7 +6,7 @@ lastmod: "2026-09-08"
 description: "The vehicle registration address must be updated within 1 month after moving: process, cost and required documents."
 categories: ["Administrative procedures"]
 tags: ["registration address change", "moving house car", "registration agency", "registration fine"]
-author: "kevin-moreau"
+author: "camille-dubreuil"
 faq:
   - question: "What is the deadline to update your address on the vehicle registration after moving?"
     answer: "The holder has a legal deadline of one month after moving to update the address on their vehicle registration, under penalty of a flat-rate fine of 135 euros in case of a check."
