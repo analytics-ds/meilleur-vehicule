@@ -44,18 +44,6 @@ The process actually involves two separate declarations, carried out by two diff
 - The **seller** must declare the sale online within **15 days** of the transaction, which generates a transfer code to hand over to the buyer.
 - The **buyer** must then have a new registration certificate issued in their name within **1 month** of the purchase date stated on the transfer certificate.
 
-## The legal deadline and the risks of being late
-
-Respecting the 1 month deadline is not a simple administrative recommendation: it is an obligation set by the French **traffic code**, and failing to meet it is sanctioned.
-
-### What the new owner risks
-
-- A **flat-rate fine of 135 euros** during a check if the registration no longer matches the vehicle's actual driver
-- A possible increase of the fine if it is not paid within the deadline stated on the notice
-- Difficulty proving good faith if disputing a ticket received during the transition period, as long as the registration in the new owner's name is not finalized
-
-According to Service-public.gouv.fr, the official French administrative information website, declaring a change of ownership is an obligation that applies "within one month of acquiring the vehicle" (Direction de l'information légale et administrative, 2024). This legal deadline is the basis for every timeframe mentioned in this article.
-
 ## The documents to gather before starting
 
 Whether the process is done directly on the official agency website or through an authorized provider, the list of required documents is **identical**. An incomplete file is the leading cause of rejection and delay, regardless of the route chosen.
@@ -70,6 +58,18 @@ Whether the process is done directly on the official agency website or through a
 | Proof of address | Less than 6 months old, in the new owner's name |
 | Administrative status certificate | Less than 15 days old, confirms the vehicle is free of any lien or seizure |
 | Roadworthiness test | Less than 6 months old if the vehicle is more than 4 years old, unless exempt |
+
+## The legal deadline and the risks of being late
+
+Respecting the 1 month deadline is not a simple administrative recommendation: it is an obligation set by the French **traffic code**, and failing to meet it is sanctioned.
+
+### What the new owner risks
+
+- A **flat-rate fine of 135 euros** during a check if the registration no longer matches the vehicle's actual driver
+- A possible increase of the fine if it is not paid within the deadline stated on the notice
+- Difficulty proving good faith if disputing a ticket received during the transition period, as long as the registration in the new owner's name is not finalized
+
+According to Service-public.gouv.fr, the official French administrative information website, declaring a change of ownership is an obligation that applies "within one month of acquiring the vehicle" (Direction de l'information légale et administrative, 2024). This legal deadline is the basis for every timeframe mentioned in this article.
 
 ## Official agency or authorized provider: the two legal routes
 

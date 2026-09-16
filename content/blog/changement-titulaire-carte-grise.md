@@ -44,18 +44,6 @@ La démarche implique en réalité deux déclarations séparées, portées par d
 - Le **vendeur** doit déclarer la cession du véhicule en ligne dans un délai de **15 jours** suivant la vente, ce qui génère un code de cession à transmettre à l'acheteur.
 - L'**acheteur** doit ensuite faire établir un nouveau certificat d'immatriculation à son nom dans un délai d'**1 mois** à compter de la date d'achat indiquée sur le certificat de cession.
 
-## Le délai légal et les risques en cas de retard
-
-Le respect du délai d'1 mois n'est pas une simple recommandation administrative : c'est une obligation posée par le **code de la route**, dont le non-respect est sanctionné.
-
-### Ce que risque le nouveau titulaire
-
-- Une **amende forfaitaire de 135 euros** en cas de contrôle avec une carte grise qui ne correspond plus au conducteur réel du véhicule
-- Une majoration possible de l'amende si elle n'est pas réglée dans les délais indiqués sur l'avis
-- Une difficulté à faire valoir sa bonne foi en cas de contestation d'un procès-verbal reçu pendant la période de transition, tant que l'immatriculation à son nom n'est pas finalisée
-
-Selon Service-public.gouv.fr, le site officiel d'information administrative de l'État, la déclaration de changement de titulaire est une obligation qui s'impose "dans le délai d'un mois suivant l'acquisition du véhicule" (Direction de l'information légale et administrative, 2024). Cette précision légale est le fondement de toutes les échéances rappelées dans cet article.
-
 ## Les documents à réunir avant de commencer
 
 Que la démarche soit faite directement sur l'ANTS ou via un professionnel habilité, la liste des pièces à fournir est **identique**. Un dossier incomplet est la première cause de rejet et de retard, quelle que soit la voie choisie.
@@ -70,6 +58,18 @@ Que la démarche soit faite directement sur l'ANTS ou via un professionnel habil
 | Justificatif de domicile | Daté de moins de 6 mois, au nom du nouvel acquéreur |
 | Certificat de situation administrative | Daté de moins de 15 jours, atteste l'absence de gage ou d'opposition sur le véhicule |
 | Contrôle technique | Daté de moins de 6 mois si le véhicule a plus de 4 ans, sauf véhicules dispensés |
+
+## Le délai légal et les risques en cas de retard
+
+Le respect du délai d'1 mois n'est pas une simple recommandation administrative : c'est une obligation posée par le **code de la route**, dont le non-respect est sanctionné.
+
+### Ce que risque le nouveau titulaire
+
+- Une **amende forfaitaire de 135 euros** en cas de contrôle avec une carte grise qui ne correspond plus au conducteur réel du véhicule
+- Une majoration possible de l'amende si elle n'est pas réglée dans les délais indiqués sur l'avis
+- Une difficulté à faire valoir sa bonne foi en cas de contestation d'un procès-verbal reçu pendant la période de transition, tant que l'immatriculation à son nom n'est pas finalisée
+
+Selon Service-public.gouv.fr, le site officiel d'information administrative de l'État, la déclaration de changement de titulaire est une obligation qui s'impose "dans le délai d'un mois suivant l'acquisition du véhicule" (Direction de l'information légale et administrative, 2024). Cette précision légale est le fondement de toutes les échéances rappelées dans cet article.
 
 ## ANTS ou professionnel habilité : les deux voies légales
 

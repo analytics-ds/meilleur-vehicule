@@ -243,20 +243,20 @@ julien-ferrand:
   avatar: /images/authors/julien-ferrand.png
   linkedinUrl: ""
   jobTitle:
-    fr: Mecanicien diplome & redacteur technique auto
+    fr: Mécanicien diplômé & rédacteur technique auto
     en: Certified mechanic & automotive technical writer
   role:
-    fr: Expert entretien & reparation automobile
+    fr: Expert entretien & réparation automobile
     en: Car maintenance & repair expert
   bio:
-    fr: "Julien Ferrand est mecanicien diplome, avec plus de 10 ans d'atelier avant de se consacrer a la redaction technique. Il decortique l'entretien, les pannes et les reparations pour aider les automobilistes a faire les bons choix, sans jargon inutile."
+    fr: "Julien Ferrand est mécanicien diplômé, avec plus de 10 ans d'atelier avant de se consacrer à la rédaction technique. Il décortique l'entretien, les pannes et les réparations pour aider les automobilistes à faire les bons choix, sans jargon inutile."
     en: "Julien Ferrand is a certified mechanic with over 10 years in the garage before turning to technical writing. He breaks down maintenance, breakdowns and repairs to help drivers make the right choices, without unnecessary jargon."
   expertise:
-    - Mecanique automobile
-    - Entretien vehicule
+    - Mécanique automobile
+    - Entretien véhicule
     - Diagnostic panne
-    - Revision
-    - Pieces detachees
+    - Révision
+    - Pièces détachées
   topics:
     - entretien
     - reparation
@@ -279,19 +279,19 @@ camille-dubreuil:
   avatar: /images/authors/camille-dubreuil.png
   linkedinUrl: ""
   jobTitle:
-    fr: Juriste de formation & specialiste des demarches automobiles
+    fr: Juriste de formation & spécialiste des démarches automobiles
     en: Trained legal specialist in vehicle administrative procedures
   role:
-    fr: Experte demarches administratives auto
+    fr: Experte démarches administratives auto
     en: Vehicle administrative procedures expert
   bio:
-    fr: "Camille Dubreuil a une formation juridique et suit de pres la reglementation de l'immatriculation et des demarches liees au vehicule. Elle traduit les textes officiels en demarches claires et actionnables pour les automobilistes."
+    fr: "Camille Dubreuil a une formation juridique et suit de près la réglementation de l'immatriculation et des démarches liées au véhicule. Elle traduit les textes officiels en démarches claires et actionnables pour les automobilistes."
     en: "Camille Dubreuil has a legal background and closely follows vehicle registration regulations and related procedures. She translates official texts into clear, actionable steps for drivers."
   expertise:
     - Immatriculation
     - Carte grise
-    - Reglementation routiere
-    - Demarches administratives
+    - Réglementation routière
+    - Démarches administratives
     - Code de la route
   topics:
     - carte grise
@@ -314,19 +314,19 @@ antoine-lefebvre:
   avatar: /images/authors/antoine-lefebvre.png
   linkedinUrl: ""
   jobTitle:
-    fr: Courtier reconverti & redacteur assurance auto
+    fr: Courtier reconverti & rédacteur assurance auto
     en: Former insurance broker & car insurance writer
   role:
     fr: Expert assurance auto
     en: Car insurance expert
   bio:
-    fr: "Antoine Lefebvre a travaille plusieurs annees comme courtier en assurance avant de se tourner vers la redaction. Il decrypte les contrats, les garanties et les strategies pour payer sa prime au juste prix."
+    fr: "Antoine Lefebvre a travaillé plusieurs années comme courtier en assurance avant de se tourner vers la rédaction. Il décrypte les contrats, les garanties et les stratégies pour payer sa prime au juste prix."
     en: "Antoine Lefebvre worked for several years as an insurance broker before moving into writing. He decodes contracts, coverage and strategies to help drivers pay a fair premium."
   expertise:
     - Assurance auto
-    - Garanties vehicule
+    - Garanties véhicule
     - Bonus malus
-    - Resiliation contrat
+    - Résiliation contrat
     - Courtage
   topics:
     - assurance
