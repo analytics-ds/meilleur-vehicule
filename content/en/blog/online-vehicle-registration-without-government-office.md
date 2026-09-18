@@ -2,7 +2,7 @@
 title: "Online vehicle registration: no need to visit a government office"
 translationKey: "art-carte-grise-en-ligne"
 date: "2026-09-08"
-lastmod: "2026-09-08"
+lastmod: "2026-09-18"
 description: "Since government counters closed, vehicle registration is done online: process, timelines, and providers authorized by the State."
 categories: ["Administrative procedures"]
 tags: ["online registration", "vehicle registration", "registration agency", "authorized provider"]
@@ -36,7 +36,7 @@ The 2017 reform removed in-person registration counters in favor of a fully digi
 
 ### An intermediary, not the official body
 
-An authorized provider is not the registration agency itself: it is a professional accredited by the State, allowed to submit registration files on its behalf. The main benefit is support on complex files (inheritance, imported vehicle, duplicate) where a filing error significantly delays processing.
+An authorized provider is not the registration agency itself: it is a professional accredited by the State, allowed to submit registration files on its behalf. The main benefit is support on complex files (inheritance, imported vehicle, duplicate) where a filing error significantly delays processing. The tax amount, however, never depends on the route chosen: it is broken down region by region in our article on [how much a vehicle registration costs](/en/blog/how-much-does-vehicle-registration-cost-2026/) in 2026.
 
 | Criteria | Official agency website | Authorized provider |
 |---|---|---|

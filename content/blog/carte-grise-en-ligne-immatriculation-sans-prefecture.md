@@ -2,7 +2,7 @@
 title: "Carte grise en ligne : immatriculer son véhicule sans se déplacer en préfecture"
 translationKey: "art-carte-grise-en-ligne"
 date: "2026-09-08"
-lastmod: "2026-09-08"
+lastmod: "2026-09-18"
 description: "Depuis la fermeture des guichets préfecture, la carte grise se fait en ligne : démarche, délais et prestataires habilités par l'État."
 categories: ["Démarches administratives"]
 tags: ["carte grise en ligne", "immatriculation", "ANTS", "prestataire habilité", "SIV"]
@@ -36,7 +36,7 @@ La réforme de 2017 a supprimé les guichets carte grise en préfecture au profi
 
 ### Un intermédiaire, pas l'organisme officiel
 
-Un prestataire habilité n'est pas l'ANTS elle-même : c'est un professionnel agréé par l'État, autorisé à saisir les dossiers d'immatriculation en son nom. L'utilité principale est l'accompagnement sur les dossiers complexes (succession, véhicule importé, duplicata) où une erreur de saisie retarde fortement le traitement.
+Un prestataire habilité n'est pas l'ANTS elle-même : c'est un professionnel agréé par l'État, autorisé à saisir les dossiers d'immatriculation en son nom. L'utilité principale est l'accompagnement sur les dossiers complexes (succession, véhicule importé, duplicata) où une erreur de saisie retarde fortement le traitement. Le montant des taxes, lui, ne dépend jamais de la voie choisie : il est détaillé région par région dans notre article sur [combien coûte une carte grise](/blog/combien-coute-carte-grise-2026/) en 2026.
 
 | Critère | Site ANTS | Prestataire habilité |
 |---|---|---|
