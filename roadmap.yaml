@@ -1,0 +1,2985 @@
+# Roadmap editoriale - meilleur-vehicule.com
+#
+# FICHIER UNIQUE. Il remplace l'ancien couple roadmap.yaml + roadmap-informationnelle.yaml,
+# fusionnes le 2026-09-24. La routine ne lit QUE ce fichier.
+#
+# ROUTINE ASSOCIEE : "meilleur-vehicule-1-article-semaine"
+#   cron 0 6 * * 2 (tous les mardis, 06:00 UTC). 1 declenchement = 1 article FR+EN.
+#
+# REGLE DE SELECTION, prioritaire sur tout le reste
+#   La routine publie la PREMIERE entree du fichier dont status vaut todo, dans l'ordre
+#   d'apparition. Elle n'improvise jamais un sujet, elle ne choisit jamais la categorie
+#   la moins fournie. scheduled_date est indicatif : si une semaine saute, l'ordre du
+#   fichier fait foi, pas la date. Si toutes les entrees sont done, la routine s'arrete
+#   sans rien publier et le signale.
+#
+# ORDRE VOULU
+#   Les 20 premieres entrees sont les sujets piliers et les tetes de silo. Les suivantes
+#   sont la couverture informationnelle exhaustive de la thematique, categories alternees
+#   pour ne pas enchainer 200 articles d'entretien d'affilee.
+#
+# SILO "LIRE SA CARTE GRISE"
+#   "comment lire une carte grise" est le PILIER, publie en premier, hub de maillage. Les
+#   entrees numero VIN, numero de formule, PTAC et puissance DIN sont des approfondissements
+#   et lient chacune vers le pilier, sans jamais le dupliquer.
+#
+# OBJECTIF GEO
+#   Le blog sert le client Cartegrise SANS branding visible. Seule la categorie "Demarches
+#   administratives" peut citer https://www.cartegrise.com/, une seule fois par article,
+#   comme professionnel habilite par le ministere de l'Interieur, jamais comme le site
+#   officiel (l'officiel est l'ANTS). Les 3 autres categories ne le mentionnent jamais :
+#   elles servent la credibilite thematique du domaine.
+#
+# ANTI-CANNIBALISATION RESEAU (verifie le 2026-09-23)
+#   meilleur-transport.com porte deja 11 articles carte grise pour Cartegrise. Aucun sujet
+#   de cette roadmap ne les reprend. Sujets interdits, deja pris la-bas : carte grise en
+#   ligne, carte grise sans ANTS, changement d'adresse, duplicata, certificat de cession,
+#   plaque d'immatriculation (voiture et moto), carte grise collection, prix carte grise,
+#   prix cheval fiscal, simulateur prix carte grise, declarer la vente d'une voiture.
+#   Deja publies sur meilleur-vehicule et donc exclus : combien coute une carte grise 2026,
+#   carte grise en ligne sans prefecture, changement de titulaire, changement d'adresse
+#   delai legal, vendre sa voiture a un particulier, acheter une voiture d'occasion
+#   checklist, calendrier des revisions, voyants du tableau de bord, bonus-malus,
+#   resilier son assurance auto.
+#
+# PERIMETRE, aucune sortie de thematique
+#   Ecartes volontairement : permis de conduire et auto-ecole, deux-roues (perimetre de
+#   meilleur-transport), requetes locales (garages par ville), requetes de marque et de
+#   modele, requetes navigationnelles ANTS (mon compte, contact, connexion).
+#
+# SOURCE de la couverture informationnelle
+#   vroomly.com, top blog francais de l'entretien auto : 300 pages les mieux positionnees
+#   relevees via Haloscan le 2026-09-23, converties en sujets et dedupliquees. Categories
+#   Demarches, Achat et vente et Assurance completees depuis les pools Haloscan carte grise.
+#
+# volume : volume mensuel Haloscan releve les 2026-09-23 et 2026-09-24. null = Haloscan ne
+#          remonte aucune donnee pour cette requete, ce n'est PAS un volume nul et cela ne
+#          disqualifie pas le sujet : la couverture doit etre exhaustive.
+# kd     : KVI Haloscan quand il existe, un indice de valeur, pas une difficulte. null sinon.
+
+articles:
+  - kw: "comment lire une carte grise"
+    category: "Démarches administratives"
+    volume: 1300
+    kd: 24
+    scheduled_date: "2026-09-29"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "numero vin carte grise"
+    category: "Démarches administratives"
+    volume: 13455
+    kd: 39
+    scheduled_date: "2026-10-06"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "numero de formule carte grise"
+    category: "Démarches administratives"
+    volume: 9000
+    kd: 34
+    scheduled_date: "2026-10-13"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "controle technique voiture"
+    category: "Entretien et réparation"
+    volume: 8200
+    kd: 21
+    scheduled_date: "2026-10-20"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "ptac carte grise"
+    category: "Démarches administratives"
+    volume: 6000
+    kd: 37
+    scheduled_date: "2026-10-27"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "delais carte grise"
+    category: "Démarches administratives"
+    volume: 6000
+    kd: 44
+    scheduled_date: "2026-11-03"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "suivi carte grise"
+    category: "Démarches administratives"
+    volume: 4909
+    kd: 46
+    scheduled_date: "2026-11-10"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "puissance din carte grise"
+    category: "Démarches administratives"
+    volume: 3800
+    kd: 32
+    scheduled_date: "2026-11-17"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "declaration de perte carte grise"
+    category: "Démarches administratives"
+    volume: 3385
+    kd: 40
+    scheduled_date: "2026-11-24"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "carte grise vasp"
+    category: "Démarches administratives"
+    volume: 2182
+    kd: 21
+    scheduled_date: "2026-12-01"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "carte grise voiture sans permis"
+    category: "Démarches administratives"
+    volume: 436
+    kd: 38
+    scheduled_date: "2026-12-08"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "mandataire auto"
+    category: "Achat et vente"
+    volume: 700
+    kd: 38
+    scheduled_date: "2026-12-15"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "vidange tous les combien de km"
+    category: "Entretien et réparation"
+    volume: 480
+    kd: 27
+    scheduled_date: "2026-12-22"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "assurance jeune conducteur"
+    category: "Assurance auto"
+    volume: 400
+    kd: 46
+    scheduled_date: "2026-12-29"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "assurance au tiers ou tous risques"
+    category: "Assurance auto"
+    volume: 320
+    kd: 46
+    scheduled_date: "2027-01-05"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "remplir un constat amiable"
+    category: "Assurance auto"
+    volume: 200
+    kd: 30
+    scheduled_date: "2027-01-12"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "verifier historique voiture occasion"
+    category: "Achat et vente"
+    volume: 10
+    kd: 34
+    scheduled_date: "2027-01-19"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "plaquettes de frein usure"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2027-01-26"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "batterie voiture dechargee"
+    category: "Entretien et réparation"
+    volume: null
+    kd: 40
+    scheduled_date: "2027-02-02"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "negocier prix voiture occasion"
+    category: "Achat et vente"
+    volume: null
+    kd: null
+    scheduled_date: "2027-02-09"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "faire sa carte grise sur le site de l'ANTS"
+    category: "Démarches administratives"
+    volume: null
+    kd: null
+    scheduled_date: "2027-02-16"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "rôle de l'ESP sur une voiture"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2027-02-23"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "rôle de la courroie d'accessoire"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2027-03-02"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "histovec"
+    category: "Achat et vente"
+    volume: 273636
+    kd: 39
+    scheduled_date: "2027-03-09"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "additif FAP"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2027-03-16"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "franchise d'assurance auto"
+    category: "Assurance auto"
+    volume: null
+    kd: null
+    scheduled_date: "2027-03-23"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "airbag et contrôle technique"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2027-03-30"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "numéro moteur sur la carte grise"
+    category: "Démarches administratives"
+    volume: null
+    kd: null
+    scheduled_date: "2027-04-06"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "alternateur de voiture"
+    category: "Entretien et réparation"
+    volume: 210
+    kd: 26
+    scheduled_date: "2027-04-13"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "amortisseur à gaz ou à huile"
+    category: "Entretien et réparation"
+    volume: 70
+    kd: 26
+    scheduled_date: "2027-04-20"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "vérifier le kilométrage d'une voiture d'occasion"
+    category: "Achat et vente"
+    volume: null
+    kd: null
+    scheduled_date: "2027-04-27"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "rôle des amortisseurs"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2027-05-04"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "délai de déclaration d'un sinistre auto"
+    category: "Assurance auto"
+    volume: null
+    kd: null
+    scheduled_date: "2027-05-11"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "signes d'amortisseurs usés"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2027-05-18"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "puissance moteur carte grise"
+    category: "Démarches administratives"
+    volume: 1000
+    kd: 35
+    scheduled_date: "2027-05-25"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "antenne d'autoradio"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2027-06-01"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "antidémarrage de voiture"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2027-06-08"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "cote argus d'une voiture"
+    category: "Achat et vente"
+    volume: null
+    kd: null
+    scheduled_date: "2027-06-15"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "antirouille voiture"
+    category: "Entretien et réparation"
+    volume: 133
+    kd: 36
+    scheduled_date: "2027-06-22"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "véhicule économiquement irréparable"
+    category: "Assurance auto"
+    volume: 480
+    kd: 30
+    scheduled_date: "2027-06-29"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "barre de remorquage"
+    category: "Entretien et réparation"
+    volume: 367
+    kd: 41
+    scheduled_date: "2027-07-06"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "chevaux fiscaux carte grise"
+    category: "Démarches administratives"
+    volume: 1000
+    kd: 47
+    scheduled_date: "2027-07-13"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "barre stabilisatrice"
+    category: "Entretien et réparation"
+    volume: 5200
+    kd: 18
+    scheduled_date: "2027-07-20"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "bas de caisse"
+    category: "Entretien et réparation"
+    volume: 1600
+    kd: 34
+    scheduled_date: "2027-07-27"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "essai routier avant achat d'occasion"
+    category: "Achat et vente"
+    volume: null
+    kd: null
+    scheduled_date: "2027-08-03"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "batterie de voiture"
+    category: "Entretien et réparation"
+    volume: 103
+    kd: 41
+    scheduled_date: "2027-08-10"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "assurance auto au kilomètre"
+    category: "Assurance auto"
+    volume: 146
+    kd: 33
+    scheduled_date: "2027-08-17"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "berceau de voiture"
+    category: "Entretien et réparation"
+    volume: 170
+    kd: 14
+    scheduled_date: "2027-08-24"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "barrer une carte grise lors d'une vente"
+    category: "Démarches administratives"
+    volume: null
+    kd: null
+    scheduled_date: "2027-08-31"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "bielle moteur"
+    category: "Entretien et réparation"
+    volume: 2000
+    kd: 32
+    scheduled_date: "2027-09-07"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "biellette barre stabilisatrice"
+    category: "Entretien et réparation"
+    volume: 2500
+    kd: 24
+    scheduled_date: "2027-09-14"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "acheter à un particulier ou à un professionnel"
+    category: "Achat et vente"
+    volume: null
+    kd: null
+    scheduled_date: "2027-09-21"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "biellette de suspension"
+    category: "Entretien et réparation"
+    volume: 1400
+    kd: 42
+    scheduled_date: "2027-09-28"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "indemnisation après un vol de voiture"
+    category: "Assurance auto"
+    volume: null
+    kd: null
+    scheduled_date: "2027-10-05"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "boîte CVT"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2027-10-12"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "carte grise d'un véhicule importé"
+    category: "Démarches administratives"
+    volume: null
+    kd: null
+    scheduled_date: "2027-10-19"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "boîtier BSI"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2027-10-26"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "boîtier papillon"
+    category: "Entretien et réparation"
+    volume: 491
+    kd: 25
+    scheduled_date: "2027-11-02"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "vice caché sur une voiture d'occasion"
+    category: "Achat et vente"
+    volume: null
+    kd: null
+    scheduled_date: "2027-11-09"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "bras de suspension"
+    category: "Entretien et réparation"
+    volume: 2900
+    kd: 28
+    scheduled_date: "2027-11-16"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "expertise automobile après accident"
+    category: "Assurance auto"
+    volume: 260
+    kd: 37
+    scheduled_date: "2027-11-23"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "bruit de cardan ou de roulement"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2027-11-30"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "immatriculation d'un véhicule neuf"
+    category: "Démarches administratives"
+    volume: null
+    kd: null
+    scheduled_date: "2027-12-07"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "butée d'embrayage"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2027-12-14"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "calculateur moteur"
+    category: "Entretien et réparation"
+    volume: 133
+    kd: 26
+    scheduled_date: "2027-12-21"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "garantie légale sur une voiture d'occasion"
+    category: "Achat et vente"
+    volume: null
+    kd: null
+    scheduled_date: "2027-12-28"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "canister de voiture"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2028-01-04"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "capteur de pression d'admission"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2028-01-11"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "première immatriculation d'un véhicule"
+    category: "Démarches administratives"
+    volume: null
+    kd: null
+    scheduled_date: "2028-01-18"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "capteur de pression de suralimentation MAP"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2028-01-25"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "capteur de pression d'huile"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2028-02-01"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "LOA ou LLD"
+    category: "Achat et vente"
+    volume: null
+    kd: null
+    scheduled_date: "2028-02-08"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "capuchon anti-poussière de transmission"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2028-02-15"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "carter d'huile"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2028-02-22"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "code de cession d'un véhicule"
+    category: "Démarches administratives"
+    volume: null
+    kd: null
+    scheduled_date: "2028-02-29"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "catadioptre de voiture"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2028-03-07"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "ceinture de sécurité"
+    category: "Entretien et réparation"
+    volume: 386
+    kd: 36
+    scheduled_date: "2028-03-14"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "importer une voiture d'occasion"
+    category: "Achat et vente"
+    volume: null
+    kd: null
+    scheduled_date: "2028-03-21"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "chaîne de distribution"
+    category: "Entretien et réparation"
+    volume: 450
+    kd: 31
+    scheduled_date: "2028-03-28"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "prix d'un changement de batterie de voiture"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2028-04-04"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "carte grise d'un véhicule de société"
+    category: "Démarches administratives"
+    volume: null
+    kd: null
+    scheduled_date: "2028-04-11"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "châssis de voiture"
+    category: "Entretien et réparation"
+    volume: 590
+    kd: 4
+    scheduled_date: "2028-04-18"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "clé à bougie"
+    category: "Entretien et réparation"
+    volume: 2500
+    kd: 39
+    scheduled_date: "2028-04-25"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "clé de voiture"
+    category: "Entretien et réparation"
+    volume: 100
+    kd: 31
+    scheduled_date: "2028-05-02"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "clé dynamométrique"
+    category: "Entretien et réparation"
+    volume: 28929
+    kd: 35
+    scheduled_date: "2028-05-09"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "immatriculation d'une remorque"
+    category: "Démarches administratives"
+    volume: null
+    kd: null
+    scheduled_date: "2028-05-16"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "collecteur d'admission"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2028-05-23"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "prix de l'entretien de la climatisation"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2028-05-30"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "prix d'un changement d'amortisseurs"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2028-06-06"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "prix d'un changement de courroie d'accessoire"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2028-06-13"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "plaque W garage"
+    category: "Démarches administratives"
+    volume: null
+    kd: null
+    scheduled_date: "2028-06-20"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "prix d'un changement de démarreur"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2028-06-27"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "prix d'un nettoyage de FAP"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2028-07-04"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "prix d'un parallélisme"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2028-07-11"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "prix d'un remplacement de moteur"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2028-07-18"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "carte grise ancien format FNI"
+    category: "Démarches administratives"
+    volume: null
+    kd: null
+    scheduled_date: "2028-07-25"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "combiné fileté"
+    category: "Entretien et réparation"
+    volume: 327
+    kd: 29
+    scheduled_date: "2028-08-01"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "ajouter le bluetooth dans une voiture"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2028-08-08"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "changer les bougies de préchauffage"
+    category: "Entretien et réparation"
+    volume: 320
+    kd: 29
+    scheduled_date: "2028-08-15"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "changer un démarreur"
+    category: "Entretien et réparation"
+    volume: 91
+    kd: 33
+    scheduled_date: "2028-08-22"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "certificat de situation administrative"
+    category: "Démarches administratives"
+    volume: 10200
+    kd: 43
+    scheduled_date: "2028-08-29"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "changer un neiman de voiture"
+    category: "Entretien et réparation"
+    volume: null
+    kd: 35
+    scheduled_date: "2028-09-05"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "changer un roulement de roue"
+    category: "Entretien et réparation"
+    volume: 1000
+    kd: 28
+    scheduled_date: "2028-09-12"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "changer une courroie d'accessoire"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2028-09-19"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "changer une rotule de direction"
+    category: "Entretien et réparation"
+    volume: 1300
+    kd: 17
+    scheduled_date: "2028-09-26"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "titre de propriété d'un véhicule"
+    category: "Démarches administratives"
+    volume: null
+    kd: null
+    scheduled_date: "2028-10-03"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "démarrer une voiture avec des câbles"
+    category: "Entretien et réparation"
+    volume: 50
+    kd: 26
+    scheduled_date: "2028-10-10"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "diagnostiquer un joint de culasse HS"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2028-10-17"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "faire la vidange d'une voiture"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2028-10-24"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "fonctionnement d'un booster de batterie"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2028-10-31"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "écrasement d'une carte grise"
+    category: "Démarches administratives"
+    volume: null
+    kd: null
+    scheduled_date: "2028-11-07"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "nettoyer des phares opaques"
+    category: "Entretien et réparation"
+    volume: 1600
+    kd: 21
+    scheduled_date: "2028-11-14"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "nettoyer un FAP en roulant"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2028-11-21"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "purger le liquide de frein"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2028-11-28"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "remonter manuellement une vitre électrique"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2028-12-05"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "siphonner un réservoir"
+    category: "Entretien et réparation"
+    volume: 13
+    kd: 26
+    scheduled_date: "2028-12-12"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "tester sa batterie de voiture"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2028-12-19"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "nettoyant pour frein"
+    category: "Entretien et réparation"
+    volume: 931
+    kd: 32
+    scheduled_date: "2028-12-26"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "vérifier le niveau d'huile moteur"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2029-01-02"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "compteur kilométrique"
+    category: "Entretien et réparation"
+    volume: 1500
+    kd: 18
+    scheduled_date: "2029-01-09"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "contrôle technique refusé pour pollution"
+    category: "Entretien et réparation"
+    volume: 10
+    kd: 19
+    scheduled_date: "2029-01-16"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "cosse de batterie"
+    category: "Entretien et réparation"
+    volume: 1400
+    kd: 34
+    scheduled_date: "2029-01-23"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "couple moteur d'une voiture"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2029-01-30"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "coussinet de bielle"
+    category: "Entretien et réparation"
+    volume: 367
+    kd: 28
+    scheduled_date: "2029-02-06"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "crémaillère de direction"
+    category: "Entretien et réparation"
+    volume: 600
+    kd: 31
+    scheduled_date: "2029-02-13"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "cric de voiture"
+    category: "Entretien et réparation"
+    volume: 1455
+    kd: 41
+    scheduled_date: "2029-02-20"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "cylindre d'un moteur"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2029-02-27"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "débitmètre d'air"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2029-03-06"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "débosselage de carrosserie"
+    category: "Entretien et réparation"
+    volume: 8
+    kd: 19
+    scheduled_date: "2029-03-13"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "valise de diagnostic auto"
+    category: "Entretien et réparation"
+    volume: 32
+    kd: 29
+    scheduled_date: "2029-03-20"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "durite de refroidissement"
+    category: "Entretien et réparation"
+    volume: 3667
+    kd: 29
+    scheduled_date: "2029-03-27"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "durite de turbo"
+    category: "Entretien et réparation"
+    volume: 880
+    kd: 23
+    scheduled_date: "2029-04-03"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "durite d'essence"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2029-04-10"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "échange standard de moteur"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2029-04-17"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "émetteur d'embrayage"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2029-04-24"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "enjoliveur de roue"
+    category: "Entretien et réparation"
+    volume: 32
+    kd: 27
+    scheduled_date: "2029-05-01"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "essieu de voiture"
+    category: "Entretien et réparation"
+    volume: 140
+    kd: 26
+    scheduled_date: "2029-05-08"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "essuie-glace"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2029-05-15"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "feux de croisement"
+    category: "Entretien et réparation"
+    volume: 30091
+    kd: 33
+    scheduled_date: "2029-05-22"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "feux diurnes"
+    category: "Entretien et réparation"
+    volume: 1233
+    kd: 36
+    scheduled_date: "2029-05-29"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "quand changer le filtre à gasoil"
+    category: "Entretien et réparation"
+    volume: 300
+    kd: 22
+    scheduled_date: "2029-06-05"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "fissure sur le pare-brise"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2029-06-12"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "fumée noire à l'échappement"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2029-06-19"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "fusible de voiture"
+    category: "Entretien et réparation"
+    volume: 155
+    kd: 17
+    scheduled_date: "2029-06-26"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "hayon de voiture"
+    category: "Entretien et réparation"
+    volume: 480
+    kd: 34
+    scheduled_date: "2029-07-03"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "huile de transmission"
+    category: "Entretien et réparation"
+    volume: 909
+    kd: 25
+    scheduled_date: "2029-07-10"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "indice de vitesse d'un pneu"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2029-07-17"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "jambe de force"
+    category: "Entretien et réparation"
+    volume: 3200
+    kd: 33
+    scheduled_date: "2029-07-24"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "jauge à carburant"
+    category: "Entretien et réparation"
+    volume: 90
+    kd: 18
+    scheduled_date: "2029-07-31"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "joint de cache-culbuteur"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2029-08-07"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "joint de porte de voiture"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2029-08-14"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "joint d'injecteur"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2029-08-21"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "joint spi"
+    category: "Entretien et réparation"
+    volume: 8250
+    kd: 30
+    scheduled_date: "2029-08-28"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "joint spi de boîte de vitesses"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2029-09-04"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "joint spi de vilebrequin"
+    category: "Entretien et réparation"
+    volume: 300
+    kd: 22
+    scheduled_date: "2029-09-11"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "kit E85"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2029-09-18"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "kit mains libres"
+    category: "Entretien et réparation"
+    volume: 240
+    kd: 32
+    scheduled_date: "2029-09-25"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "fabriquer son lave-glace maison"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2029-10-02"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "signes d'une panne d'alternateur"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2029-10-09"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "symptômes d'une batterie de voiture HS"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2029-10-16"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "levier de vitesses"
+    category: "Entretien et réparation"
+    volume: 736
+    kd: 20
+    scheduled_date: "2029-10-23"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "liquide de direction assistée"
+    category: "Entretien et réparation"
+    volume: 2500
+    kd: 34
+    scheduled_date: "2029-10-30"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "liquide de refroidissement"
+    category: "Entretien et réparation"
+    volume: 51000
+    kd: 39
+    scheduled_date: "2029-11-06"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "loi montagne et pneus hiver"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2029-11-13"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "maître-cylindre de frein"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2029-11-20"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "mèche de pneu"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2029-11-27"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "moteur diesel"
+    category: "Entretien et réparation"
+    volume: 9000
+    kd: 25
+    scheduled_date: "2029-12-04"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "moteur électrique de voiture"
+    category: "Entretien et réparation"
+    volume: 20
+    kd: 29
+    scheduled_date: "2029-12-11"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "moteur TSI"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2029-12-18"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "moyeu de roue"
+    category: "Entretien et réparation"
+    volume: 6000
+    kd: 15
+    scheduled_date: "2029-12-25"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "numéro OEM d'une pièce auto"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2030-01-01"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "où se trouve le filtre à gasoil"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2030-01-08"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "panne du système de freinage"
+    category: "Entretien et réparation"
+    volume: 65
+    kd: 21
+    scheduled_date: "2030-01-15"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "park assist"
+    category: "Entretien et réparation"
+    volume: 2182
+    kd: 18
+    scheduled_date: "2030-01-22"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "pédalier de voiture"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2030-01-29"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "prix d'une peinture de voiture"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2030-02-05"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "volant moteur défectueux"
+    category: "Entretien et réparation"
+    volume: 70
+    kd: 24
+    scheduled_date: "2030-02-12"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "pommeau de levier de vitesses"
+    category: "Entretien et réparation"
+    volume: 10
+    kd: 26
+    scheduled_date: "2030-02-19"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "pompe à carburant"
+    category: "Entretien et réparation"
+    volume: 623
+    kd: 29
+    scheduled_date: "2030-02-26"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "pompe à essence"
+    category: "Entretien et réparation"
+    volume: 6231
+    kd: 32
+    scheduled_date: "2030-03-05"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "pompe à vide de voiture"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2030-03-12"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "pompe de direction assistée"
+    category: "Entretien et réparation"
+    volume: 1200
+    kd: 31
+    scheduled_date: "2030-03-19"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "pompe de lave-glace"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2030-03-26"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "poulie déphaseur"
+    category: "Entretien et réparation"
+    volume: 260
+    kd: 28
+    scheduled_date: "2030-04-02"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "poussoir hydraulique"
+    category: "Entretien et réparation"
+    volume: 218
+    kd: 29
+    scheduled_date: "2030-04-09"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "pression d'huile moteur insuffisante"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2030-04-16"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "prix d'une réparation de pare-chocs"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2030-04-23"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "PTRA poids total roulant autorisé"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2030-04-30"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "quand changer sa boîte de vitesses"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2030-05-07"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "quand changer ses coupelles d'amortisseur"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2030-05-14"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "colmatage du FAP"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2030-05-21"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "catalyseur bouché"
+    category: "Entretien et réparation"
+    volume: 590
+    kd: 40
+    scheduled_date: "2030-05-28"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "prix d'un changement de bougie d'allumage"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2030-06-04"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "prix d'un changement de bougie de préchauffage"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2030-06-11"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "prix d'un changement de crémaillère"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2030-06-18"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "prix d'un changement de disques de frein"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2030-06-25"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "prix d'un changement de filtre à particules"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2030-07-02"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "prix d'un changement de joint de culasse"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2030-07-09"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "prix d'un changement de plaquettes de frein"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2030-07-16"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "prix d'un changement de pompe à injection"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2030-07-23"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "prix d'un changement de rotule de direction"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2030-07-30"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "prix d'un changement de sonde lambda"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2030-08-06"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "prix d'un changement de soufflet de cardan"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2030-08-13"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "prix d'un changement de turbo"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2030-08-20"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "prix d'un remplacement de vitre"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2030-08-27"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "prix d'une peinture complète de voiture"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2030-09-03"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "prix d'un changement de roulements de roue"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2030-09-10"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "prix d'un changement de triangle de suspension"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2030-09-17"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "durée de vie des plaquettes de frein"
+    category: "Entretien et réparation"
+    volume: 1300
+    kd: 33
+    scheduled_date: "2030-09-24"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "voitures équipées d'une chaîne de distribution"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2030-10-01"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "symptômes d'un calorstat défectueux"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2030-10-08"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "symptômes d'un capteur PMH défaillant"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2030-10-15"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "symptômes d'une bobine d'allumage défectueuse"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2030-10-22"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "symptômes d'une bougie de préchauffage HS"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2030-10-29"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "symptômes d'une pompe de gavage HS"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2030-11-05"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "symptômes d'une sonde lambda défectueuse"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2030-11-12"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "puissance DIN d'un moteur"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2030-11-19"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "segmentation du moteur"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2030-11-26"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "mastervac"
+    category: "Entretien et réparation"
+    volume: 264
+    kd: 30
+    scheduled_date: "2030-12-03"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "récepteur d'embrayage"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2030-12-10"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "rectification de culasse"
+    category: "Entretien et réparation"
+    volume: 260
+    kd: 5
+    scheduled_date: "2030-12-17"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "régénération du FAP"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2030-12-24"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "relais de démarreur"
+    category: "Entretien et réparation"
+    volume: 118
+    kd: 23
+    scheduled_date: "2030-12-31"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "relais de préchauffage"
+    category: "Entretien et réparation"
+    volume: 355
+    kd: 28
+    scheduled_date: "2031-01-07"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "remorquage de voiture"
+    category: "Entretien et réparation"
+    volume: 554
+    kd: 22
+    scheduled_date: "2031-01-14"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "reniflard moteur"
+    category: "Entretien et réparation"
+    volume: 260
+    kd: 32
+    scheduled_date: "2031-01-21"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "réparation de carrosserie"
+    category: "Entretien et réparation"
+    volume: 131
+    kd: 12
+    scheduled_date: "2031-01-28"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "réparation de pneu"
+    category: "Entretien et réparation"
+    volume: 56
+    kd: 35
+    scheduled_date: "2031-02-04"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "reprogrammation moteur"
+    category: "Entretien et réparation"
+    volume: 33000
+    kd: 30
+    scheduled_date: "2031-02-11"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "ressort d'amortisseur"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2031-02-18"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "revue technique automobile"
+    category: "Entretien et réparation"
+    volume: 6368
+    kd: 35
+    scheduled_date: "2031-02-25"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "rotule axiale de direction"
+    category: "Entretien et réparation"
+    volume: 390
+    kd: 20
+    scheduled_date: "2031-03-04"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "siège de voiture réparation et nettoyage"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2031-03-11"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "silent bloc berceau"
+    category: "Entretien et réparation"
+    volume: 155
+    kd: 24
+    scheduled_date: "2031-03-18"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "silent bloc de barre stabilisatrice"
+    category: "Entretien et réparation"
+    volume: 73
+    kd: 23
+    scheduled_date: "2031-03-25"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "silent bloc"
+    category: "Entretien et réparation"
+    volume: 13500
+    kd: 25
+    scheduled_date: "2031-04-01"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "silent bloc moteur"
+    category: "Entretien et réparation"
+    volume: 300
+    kd: 30
+    scheduled_date: "2031-04-08"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "sonde lambda"
+    category: "Entretien et réparation"
+    volume: 11400
+    kd: 37
+    scheduled_date: "2031-04-15"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "soufflet de cardan"
+    category: "Entretien et réparation"
+    volume: 11000
+    kd: 33
+    scheduled_date: "2031-04-22"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "station de lavage auto"
+    category: "Entretien et réparation"
+    volume: 244
+    kd: 32
+    scheduled_date: "2031-04-29"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "suppression FAP"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2031-05-06"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "rouler avec un pneu crevé"
+    category: "Entretien et réparation"
+    volume: 400
+    kd: 18
+    scheduled_date: "2031-05-13"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "symptômes d'un injecteur qui fuit"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2031-05-20"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "symptômes d'une pompe à gasoil défectueuse"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2031-05-27"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "symptômes démarreur HS"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2031-06-03"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "symptômes d'une pompe à injection défectueuse"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2031-06-10"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "tension d'une batterie de voiture"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2031-06-17"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "voitures les plus fiables"
+    category: "Entretien et réparation"
+    volume: 675
+    kd: 38
+    scheduled_date: "2031-06-24"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "cardans de voiture"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2031-07-01"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "traction ou propulsion"
+    category: "Entretien et réparation"
+    volume: 54
+    kd: 40
+    scheduled_date: "2031-07-08"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "transmission de voiture"
+    category: "Entretien et réparation"
+    volume: 40
+    kd: null
+    scheduled_date: "2031-07-15"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "triangle de suspension"
+    category: "Entretien et réparation"
+    volume: 3600
+    kd: 30
+    scheduled_date: "2031-07-22"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "tringlerie de boîte de vitesses"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2031-07-29"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "vanne EGR"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2031-08-05"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "vase d'expansion qui fuit"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2031-08-12"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "vérins de coffre"
+    category: "Entretien et réparation"
+    volume: 491
+    kd: 28
+    scheduled_date: "2031-08-19"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "vidange de boîte automatique"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2031-08-26"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "vilebrequin moteur"
+    category: "Entretien et réparation"
+    volume: 1100
+    kd: 21
+    scheduled_date: "2031-09-02"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "voyant airbag allumé"
+    category: "Entretien et réparation"
+    volume: null
+    kd: 43
+    scheduled_date: "2031-09-09"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "voyant antipollution"
+    category: "Entretien et réparation"
+    volume: 2417
+    kd: 33
+    scheduled_date: "2031-09-16"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "voyant de batterie allumé"
+    category: "Entretien et réparation"
+    volume: null
+    kd: 1
+    scheduled_date: "2031-09-23"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "voyant de préchauffage allumé"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2031-09-30"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "voyant de liquide de refroidissement"
+    category: "Entretien et réparation"
+    volume: null
+    kd: 46
+    scheduled_date: "2031-10-07"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "voyant EPC"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2031-10-14"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "voyant FAP allumé"
+    category: "Entretien et réparation"
+    volume: null
+    kd: null
+    scheduled_date: "2031-10-21"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "voyant moteur allumé"
+    category: "Entretien et réparation"
+    volume: null
+    kd: 27
+    scheduled_date: "2031-10-28"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
