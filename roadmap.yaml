@@ -63,10 +63,10 @@ articles:
     volume: 1300
     kd: 24
     scheduled_date: "2026-09-29"
-    status: todo
-    published_date: null
-    published_url_fr: null
-    published_url_en: null
+    status: done
+    published_date: "2026-09-29"
+    published_url_fr: "https://meilleur-vehicule.com/blog/comment-lire-une-carte-grise/"
+    published_url_en: "https://meilleur-vehicule.com/en/blog/how-to-read-a-french-vehicle-registration-certificate/"
     error: null
 
   - kw: "numero vin carte grise"
