@@ -2,7 +2,7 @@
 title: "Vendre sa voiture entre particuliers : les documents obligatoires"
 translationKey: "art-vendre-documents"
 date: "2026-09-08"
-lastmod: "2026-09-08"
+lastmod: "2026-09-30"
 description: "Certificat de cession, carte grise barrée, certificat de non-gage : la liste des documents obligatoires pour vendre sa voiture."
 categories: ["Achat et vente"]
 tags: ["vente voiture", "certificat de cession", "carte grise barrée", "vente entre particuliers"]
@@ -43,6 +43,8 @@ Le certificat de cession (Cerfa n°15776) est un document obligatoire, rempli et
 | Déclaration de cession en ligne | 15 jours après la vente | Le vendeur |
 | Immatriculation à son nom | 1 mois après l'achat | L'acheteur |
 | Remise du certificat de non-gage | Le jour de la vente | Le vendeur |
+
+La déclaration en ligne génère un code de cession à transmettre à l'acheteur. S'il est perdu ou jamais transmis, l'acheteur n'est pas bloqué pour autant : voir [carte grise sans code de cession](/blog/carte-grise-sans-code-de-cession-solutions/). Sur une carte grise éditée avant 2009, le numéro de formule demandé au moment de la déclaration n'existe pas, ce qui est normal : voir [carte grise sans numéro de formule](/blog/carte-grise-sans-numero-de-formule-cas/).
 
 ## Pourquoi ce délai est important
 

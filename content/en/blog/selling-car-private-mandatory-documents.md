@@ -2,7 +2,7 @@
 title: "Selling your car privately: the mandatory documents"
 translationKey: "art-vendre-documents"
 date: "2026-09-08"
-lastmod: "2026-09-08"
+lastmod: "2026-09-30"
 description: "Transfer certificate, crossed-out registration certificate, no-liens certificate: the list of mandatory documents to sell your car."
 categories: ["Buying and selling"]
 tags: ["private car sale", "transfer certificate", "crossed-out registration", "private sale"]
@@ -43,6 +43,8 @@ The official transfer certificate is a mandatory document, filled in and signed 
 | Online transfer declaration | 15 days after the sale | The seller |
 | Registration in their name | 1 month after the purchase | The buyer |
 | Handing over the no-liens certificate | The day of the sale | The seller |
+
+The online declaration generates a transfer code to pass on to the buyer. If it is lost or never sent, the buyer is not stuck: see [vehicle registration without a transfer code](/en/blog/vehicle-registration-without-transfer-code-solutions/). On a registration certificate issued before 2009, the document number requested during the declaration does not exist, which is normal: see [vehicle registration without a document number](/en/blog/vehicle-registration-without-document-number-cases/).
 
 ## Why this deadline matters
 

@@ -2,7 +2,7 @@
 title: "Online vehicle registration: no need to visit a government office"
 translationKey: "art-carte-grise-en-ligne"
 date: "2026-09-08"
-lastmod: "2026-09-18"
+lastmod: "2026-09-30"
 description: "Since government counters closed, vehicle registration is done online: process, timelines, and providers authorized by the State."
 categories: ["Administrative procedures"]
 tags: ["online registration", "vehicle registration", "registration agency", "authorized provider"]
@@ -43,6 +43,8 @@ An authorized provider is not the registration agency itself: it is a profession
 | Cost | Free (excluding vehicle taxes) | Service fee in addition to taxes |
 | Support | None | File review, assistance |
 | Delay in case of file error | Rejection and resubmission | Assisted correction |
+
+Online, three blockers come up often. The first is logging in: when identification fails, the guide [FranceConnect not working: how to register your vehicle](/en/blog/franceconnect-not-working-vehicle-registration/) lists the fixes in order. The second is the service itself being unavailable, covered in [ANTS not working: what to do for your vehicle registration](/en/blog/ants-not-working-vehicle-registration/). The third concerns two-wheelers, whose file follows its own rules: see [motorcycle registration: which site to choose](/en/blog/motorcycle-registration-which-site-to-choose/).
 
 ## Steps of the process
 

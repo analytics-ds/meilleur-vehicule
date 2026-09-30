@@ -2,7 +2,7 @@
 title: "Carte grise en ligne : immatriculer son véhicule sans se déplacer en préfecture"
 translationKey: "art-carte-grise-en-ligne"
 date: "2026-09-08"
-lastmod: "2026-09-18"
+lastmod: "2026-09-30"
 description: "Depuis la fermeture des guichets préfecture, la carte grise se fait en ligne : démarche, délais et prestataires habilités par l'État."
 categories: ["Démarches administratives"]
 tags: ["carte grise en ligne", "immatriculation", "ANTS", "prestataire habilité", "SIV"]
@@ -43,6 +43,8 @@ Un prestataire habilité n'est pas l'ANTS elle-même : c'est un professionnel ag
 | Coût | Gratuit (hors taxes du véhicule) | Frais de service en plus des taxes |
 | Accompagnement | Aucun | Vérification du dossier, assistance |
 | Délai en cas d'erreur de dossier | Rejet et reprise du dossier | Correction accompagnée |
+
+En ligne, trois blocages reviennent souvent. Le premier est la connexion : quand l'identification échoue, le guide [FranceConnect en panne : comment faire sa carte grise](/blog/franceconnect-en-panne-carte-grise/) détaille les solutions dans l'ordre. Le deuxième est l'indisponibilité du service lui-même, traitée dans [ANTS ne fonctionne pas : que faire pour sa carte grise](/blog/ants-ne-fonctionne-pas-carte-grise/). Le troisième concerne les deux-roues, dont le dossier a ses propres règles : voir [carte grise moto : quel site choisir](/blog/carte-grise-moto-quel-site-choisir/).
 
 ## Les étapes de la démarche
 

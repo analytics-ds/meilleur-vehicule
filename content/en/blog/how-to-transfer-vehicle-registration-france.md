@@ -2,7 +2,7 @@
 title: "How do you transfer a vehicle registration in France?"
 translationKey: "art-changement-titulaire-cg"
 date: "2026-09-16"
-lastmod: "2026-09-16"
+lastmod: "2026-09-30"
 description: "Transferring a French vehicle registration to a new owner must be declared within 1 month: official agency or authorized provider, documents and cost."
 categories: ["Administrative procedures"]
 tags: ["vehicle registration transfer", "change of ownership", "transfer certificate", "registration agency", "authorized provider"]
@@ -41,7 +41,7 @@ Until this process is finalized, the vehicle stays administratively linked to it
 
 The process actually involves two separate declarations, carried out by two different people:
 
-- The **seller** must declare the sale online within **15 days** of the transaction, which generates a transfer code to hand over to the buyer.
+- The **seller** must declare the sale online within **15 days** of the transaction, which generates a transfer code to hand over to the buyer. If that code is missing, the process is still possible: the options are covered in [vehicle registration without a transfer code: 3 solutions](/en/blog/vehicle-registration-without-transfer-code-solutions/).
 - The **buyer** must then have a new registration certificate issued in their name within **1 month** of the purchase date stated on the transfer certificate.
 
 ## The documents to gather before starting
@@ -102,7 +102,7 @@ No ecological penalty applies to a simple ownership transfer on a used vehicle a
 ## The practical steps of the process
 
 1. **Get the transfer certificate** signed by the seller at the time of purchase, along with the transfer code issued after their online declaration
-2. **Gather the supporting documents** listed above, making sure they are readable if scanned
+2. **Gather the supporting documents** listed above, making sure they are readable if scanned, and note the document number of the crossed-out registration certificate (a certificate issued before 2009 has none: see [vehicle registration without a document number](/en/blog/vehicle-registration-without-document-number-cases/))
 3. **Choose the processing route**: self-service filing on the official agency website, or submission to an authorized provider for a file check
 4. **Pay the regional tax** corresponding to the vehicle's fiscal horsepower
 5. **Receive the new registration certificate**, within a timeframe ranging from a few days to several weeks depending on demand and how complete the file is, with a temporary certificate allowing the vehicle to be driven in the meantime

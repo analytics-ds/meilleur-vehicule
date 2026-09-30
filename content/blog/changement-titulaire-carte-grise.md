@@ -2,7 +2,7 @@
 title: "Comment changer le titulaire d'une carte grise ?"
 translationKey: "art-changement-titulaire-cg"
 date: "2026-09-16"
-lastmod: "2026-09-16"
+lastmod: "2026-09-30"
 description: "Le changement de titulaire d'une carte grise doit être déclaré sous 1 mois : démarche via l'ANTS ou un professionnel habilité, documents et coût."
 categories: ["Démarches administratives"]
 tags: ["changement de titulaire carte grise", "changement de propriétaire", "certificat de cession", "ANTS", "professionnel habilité"]
@@ -41,7 +41,7 @@ Tant que cette démarche n'est pas finalisée, le véhicule reste rattaché admi
 
 La démarche implique en réalité deux déclarations séparées, portées par deux personnes différentes :
 
-- Le **vendeur** doit déclarer la cession du véhicule en ligne dans un délai de **15 jours** suivant la vente, ce qui génère un code de cession à transmettre à l'acheteur.
+- Le **vendeur** doit déclarer la cession du véhicule en ligne dans un délai de **15 jours** suivant la vente, ce qui génère un code de cession à transmettre à l'acheteur. Si ce code manque, la démarche reste possible : les solutions sont détaillées dans [carte grise sans code de cession : les 3 solutions](/blog/carte-grise-sans-code-de-cession-solutions/).
 - L'**acheteur** doit ensuite faire établir un nouveau certificat d'immatriculation à son nom dans un délai d'**1 mois** à compter de la date d'achat indiquée sur le certificat de cession.
 
 ## Les documents à réunir avant de commencer
@@ -102,7 +102,7 @@ Aucun malus écologique ne s'applique à un simple changement de titulaire sur u
 ## Les étapes pratiques de la démarche
 
 1. **Récupérer le certificat de cession** signé par le vendeur au moment de l'achat, avec le code de cession transmis après sa déclaration en ligne
-2. **Réunir les pièces justificatives** listées plus haut, en veillant à leur lisibilité si elles sont scannées
+2. **Réunir les pièces justificatives** listées plus haut, en veillant à leur lisibilité si elles sont scannées, et relever le numéro de formule de la carte grise barrée (une carte d'avant 2009 n'en a pas : voir [carte grise sans numéro de formule](/blog/carte-grise-sans-numero-de-formule-cas/))
 3. **Choisir la voie de traitement** : dépôt autonome sur le site de l'ANTS ou transmission à un professionnel habilité pour vérification du dossier
 4. **Payer la taxe régionale** correspondant à la puissance fiscale du véhicule
 5. **Recevoir le nouveau certificat d'immatriculation**, dans un délai qui va de quelques jours à plusieurs semaines selon l'affluence et la complétude du dossier, un certificat provisoire (WW) permettant de circuler en attendant
